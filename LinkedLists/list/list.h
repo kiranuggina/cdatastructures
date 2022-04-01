@@ -33,7 +33,7 @@ void testpalindrome();
 
 // default functions.
 void insertfront(node_t **head, int val);
-void delete(node_t **head, int val);
+void deletenode(node_t **head, int val);
 void displaylist(node_t *head);
 void removeduplicates(node_t *head);
 node_t *removeduplicates2(node_t *head);

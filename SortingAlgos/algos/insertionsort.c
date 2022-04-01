@@ -2,7 +2,6 @@
 
 void insertionSort(int a[], int n) 
 { 
-        printf("Insertion Sort :\n"); 
         int i, j, temp = 0; 
         for (i = 1; i < n; i++) 
         { 
@@ -15,6 +14,5 @@ void insertionSort(int a[], int n)
                 } 
                 a[j + 1] = temp; 
         } 
-        display(a,n); 
         return; 
 }

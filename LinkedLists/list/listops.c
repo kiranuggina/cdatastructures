@@ -75,12 +75,12 @@ void testdelete()
   displaylist(l1);
   
   // delete random
-  delete(&l1, 2);
+  deletenode(&l1, 2);
   // delete head node
-  delete(&l1, 10);
+  deletenode(&l1, 10);
 
   // delete last node.
-  delete(&l1, 1);
+  deletenode(&l1, 1);
   displaylist(l1);
 }
 

@@ -11,7 +11,7 @@ void insertfront(node_t **head, int val)
   }
 }
 
-void delete(node_t **head, int val)
+void deletenode(node_t **head, int val)
 {
   node_t *temp = *head, *prev;
   
@@ -49,22 +49,4 @@ void displaylist(node_t *head)
     temp = temp->next;
   }
   printf("\n");
-}
-
-int main()
-{
-  printf("\nWelcome to linked and demonstrating its operations\n");
-
-  //testdelete();
-  //testsorted();
-  //testunsorted();
-  //testsorted_recursive();
-  //testreverse();
-  //testmiddle();
-  //testmergesort();
-  //testnthnode();
-  //testremoveduplicates2();
-  testpalindrome();
-
-  return 0;
 }

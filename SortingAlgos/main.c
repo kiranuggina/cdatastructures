@@ -15,9 +15,14 @@ int main()
         int a4[] = { 9,8,7,6,5,4,3,2,1 };
 	int a5[] = { 9,8,7,6,5,4,3,2,1 };
         printf("Welcome to sorting Algorithms: \n");
+        
+        printf("Insertion Sort :\n");
         insertionSort(a1, sizeof(a1) / sizeof(a1[0]));
+        display(a1,sizeof(a1) / sizeof(a1[0])); 
 
+        printf("Selection Sort : \n");
         selectionSort(a2, sizeof(a2) / sizeof(a2[0]));
+        display(a2,sizeof(a2) / sizeof(a2[0]));
 
         printf("Merge Sort: \n");
         mergeSort(a3, 0, (sizeof(a3) / sizeof(a3[0])) - 1);

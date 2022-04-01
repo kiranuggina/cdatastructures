@@ -2,7 +2,6 @@
 
 void selectionSort(int a[], int n)
 {
-        printf("Selection Sort : \n");
         int i, j, min = 0;
         for (i = 0; i < n-1; i++)
         {
@@ -19,6 +18,5 @@ void selectionSort(int a[], int n)
                         }
                 }
         }
-        display(a, n);
         return;
 }
